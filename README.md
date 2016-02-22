@@ -3,6 +3,7 @@ This is a coding challenge... to create a program that deciphers words using the
 
 Ruby was used to complete this challenge.
 
+```
 def caesar_cipher(string, num)
   phrase = string.split("")
   shift = (num.to_i)%26
@@ -22,3 +23,4 @@ end
 puts "Give me a word... any word."
 user = gets.chomp
 caesar_cipher(user, 2)
+```
